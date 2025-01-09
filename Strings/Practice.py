@@ -1,0 +1,2 @@
+print(bool('Kodnest'))
+print()
