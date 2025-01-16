@@ -45,3 +45,5 @@ print(s1)           # {10, 20, 30}
 
 
 # dict iterable object
+d1 = dict([['name', 'kumar'], ['age', 30]])
+print(d1)           # {'name': 'kumar', 'age': 30}
