@@ -23,3 +23,14 @@ t1 = (1, 2, 3)
 t2 = (4, 5, 6)
 t3 = t1 + t2
 print(t3)               # (1, 2, 3, 4, 5, 6)
+
+# tup1(10,)      # if we want to create single element in tuple ****
+# print(tup1, type(tup1))  
+
+new_tup = (10, 20, 30, 40)
+
+# unpacking of tuple
+ele1, ele2, ele3, ele4 = new_tup
+print("Value of ele1: ", ele1)          # Value of ele1:  10
+print("Value of ele2: ", ele2)          # Value of ele2:  20
+

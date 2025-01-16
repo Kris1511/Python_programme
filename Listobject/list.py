@@ -19,7 +19,7 @@ print(li1)              # [10, 20, 44.45, True, 'Python', 20, 100]
 li1.insert(2, 200)
 print(li1)              # [10, 20, 200, 44.45, True, 'Python', 20, 100]
 
-li1.remove(20)          # remove will remove the first occurence of the element.
+li1.remove(20)          # remove will remove the first occurrence of the element.
 print(li1)              # [10, 200, 44.45, True, 'Python', 20, 100]
 
 # remove 20 all from the list. and no return element.
