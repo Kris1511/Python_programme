@@ -1,6 +1,6 @@
 # syntax of list comprehension
 
-# [expression i for in ]
+# [expression for control_variable in iterable_object]      => [i**2 for i in li1]
 
 
 li1 = [1, 2, 3, 4, 5, 6]
