@@ -22,3 +22,27 @@ print(next(res))            # 1
 print(next(res))            # one
 print(next(res))            # 3
 print(next(res))            # 40
+
+# normal fibonacci series
+def fibonacci(num):
+    a, b = 0, 1
+    for i in range(num):
+        print(a)
+        a, b = b, a + b
+
+fibonacci(10)
+
+
+# yield fibonacci 
+def fibonacci_gen(num):
+    a, b = 0, 1
+    for i in range(num):
+        yield a
+        a , b = b, a + b
+
+ref = fibonacci_gen(1000)
+print(f'fib1: ', next(ref))     # next means pause  fib1: 0
+print(f'fib2: ', next(ref))     # resume            fib2: 1
+
+for i in range(10):
+    print(next(ref))            # 1 2 3 5 8 13 21 34 55 89
